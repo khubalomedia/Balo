@@ -1,25 +1,30 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Lity Rate Music Hub</title>
+<title>BaloTV AI Studio</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header><h1>Lity Rate 🎤</h1></header>
-<section class="bio">
-<h2>About Lity Rate</h2>
-<p>Lity Rate blends Trap, Love, and Sad music, voicing struggles and dreams of South African youth. His songs connect from KZN to global stages.</p>
-</section>
-<main>
-<h2>Explore Categories:</h2>
-<ul class="categories">
-<li><a href="love.html">❤️ Love Songs</a></li>
-<li><a href="trap.html">🔥 Trap Songs</a></li>
-<li><a href="sad.html">💔 Sad Songs</a></li>
-</ul>
-</main>
-<footer><p>&copy; 2025 Lity Rate Music</p></footer>
+
+<h1>BaloTV AI Studio</h1>
+
+<textarea id="scriptBox" placeholder="Write your news script here"></textarea>
+
+<button onclick="generateVoice()">Generate Voice</button>
+<button onclick="playPresenter()">Play Presenter</button>
+
+<div id="studio">
+
+<img src="body.png" class="body">
+
+<img id="mouth" src="neutral.png" class="mouth">
+
+</div>
+
+<audio id="voice"></audio>
+
+<script src="script.js"></script>
+
 </body>
 </html>
